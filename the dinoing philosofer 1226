@@ -1,0 +1,9 @@
+        putRightFork.run();
+        putLeftFork.run();
+
+        forks[right].release();
+        forks[left].release();
+
+        room.release();
+    }
+}
